@@ -32,6 +32,7 @@ p{
 }
 .biography{
     background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
 
 }
 .biography-image-position{
@@ -45,7 +46,7 @@ section{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(45deg, #ec008c,#fc6767 );
+    background-image: linear-gradient(90deg, #ec008c,#fc6767 );
     padding: 10px 30px;
     border-radius: 5px;
     color: white;
@@ -53,9 +54,10 @@ section{
 }
 .latest-work{
     background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
     padding-top: 100px;
 }
-.latest-work-text-allignment{
+.center-writeup{
     text-align: center;
     font-size: 30px;
 }
@@ -74,4 +76,71 @@ section{
 #latest-work-third-image{
     box-shadow: 10px 10px 40px gray;
     border-radius: 5px;
+}
+.client{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+}
+.client-name{
+    text-align: center;
+    font-size: 18px;
+}
+.client-designation{
+    text-align: center;
+    font-size: 15px;
+}
+.client-review{
+    color: black;
+    text-align: center;
+    font-weight: 700;
+}
+.message{
+    width: 40%;
+    height: 30%;
+    margin-left: 30%;
+    background-image: linear-gradient(45deg, #ec008c,#fc6767 );
+    border-radius: 5px;
+    text-align: center;
+}
+#for-message{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    text-decoration: none;
+}
+#email-link{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.bottom{
+    height: 200px;
+    padding-bottom: 150px;
+}
+.contact{
+    background-image: linear-gradient(45deg, #fc4a1a,#f7b733 );
+    border-radius: 10px;
+    width: 10%;
+    height: 20px;
+    margin-left: 25%;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+}
+.contact:hover{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 50px;
+    color: black ;
 }
